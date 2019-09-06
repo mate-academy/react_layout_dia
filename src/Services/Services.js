@@ -8,7 +8,7 @@ function Services() {
         <div className="services-wrap">
           <div className="service">
             <div className="service__image">
-              <img src="/images/service1.png" alt="service" />
+              <img src="./images/service1.png" alt="service" />
             </div>
             <div className="service__title">
               By the same illusion which lifts the horizon.
@@ -20,7 +20,7 @@ By the same illusion which lifts the horizon of the sea to the level
           </div>
           <div className="service">
             <div className="service__image">
-              <img src="/images/service2.png" alt="service" />
+              <img src="./images/service2.png" alt="service" />
             </div>
             <div className="service__title">
               By the same illusion which lifts the horizon.
@@ -32,7 +32,7 @@ By the same illusion which lifts the horizon of the sea to the level
           </div>
           <div className="service">
             <div className="service__image">
-              <img src="/images/service3.png" alt="service" />
+              <img src="./images/service3.png" alt="service" />
             </div>
             <div className="service__title">
               By the same illusion which lifts the horizon.

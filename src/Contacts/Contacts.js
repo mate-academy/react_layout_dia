@@ -42,13 +42,13 @@ function Contacts() {
             </div>
             <div className="contact-network">
               <a href="#" className="contact-network__link">
-                <img className="contact-network__icon" src="../assets/images/twitter.svg" alt="" />
+                <img className="contact-network__icon" src="./assets/images/twitter.svg" alt="" />
               </a>
               <a href="#" className="contact-network__link">
-                <img className="contact-network__icon" src="../assets/images/instagram.svg" alt="" />
+                <img className="contact-network__icon" src="./assets/images/instagram.svg" alt="" />
               </a>
               <a href="#" className="contact-network__link">
-                <img className="contact-info__icon" src="../assets/images/facebook.svg" alt="" />
+                <img className="contact-info__icon" src="./assets/images/facebook.svg" alt="" />
               </a>
             </div>
           </div>

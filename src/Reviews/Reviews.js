@@ -13,7 +13,7 @@ function Reviews() {
         <div className="reviews">
           <div className="review">
             <div className="review__author-photo review--primary">
-              <img src="/images/author-photo1.png" alt="" />
+              <img src="./images/author-photo1.png" alt="" />
             </div>
             <div className="review__description">
 “By the same illusion which lifts the horizon of the sea to the level
@@ -25,7 +25,7 @@ function Reviews() {
           </div>
           <div className="review">
             <div className="review__author-photo review--warning">
-              <img src="/images/author-photo2.png" alt="" />
+              <img src="./images/author-photo2.png" alt="" />
             </div>
             <div className="review__description">
 “By the same illusion which lifts the horizon of the sea to the level
@@ -37,7 +37,7 @@ function Reviews() {
           </div>
           <div className="review">
             <div className="review__author-photo review--danger">
-              <img src="/images/author-photo3.png" alt="" />
+              <img src="./images/author-photo3.png" alt="" />
             </div>
             <div className="review__description">
 “By the same illusion which lifts the horizon of the sea to the level
