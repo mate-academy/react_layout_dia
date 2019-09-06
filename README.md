@@ -53,4 +53,4 @@ You should be writing code in `src/` directory.
 
 ### Demo link
 
-Add link here: `[DEMO LINK](https://marchukmiroslava88.github.io/react_layout_dia/)`
+Add link here: [DEMO LINK](https://marchukmiroslava88.github.io/react_layout_dia/)
