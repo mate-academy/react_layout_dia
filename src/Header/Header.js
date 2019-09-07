@@ -1,28 +1,34 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-export default class Header extends React.Component {
-  constructor(props) {
-    super(props);
-    this.open = this.open.bind(this);
-    this.close = this.close.bind(this);
+export default class Header extends Component {
+  constructor() {
+    super();
+    this.state = {
+      isOpen: false,
+    };
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  open() {
-    this.nav.classList.add('open');
-    this.overlay.classList.add('show');
-  }
-
-  close() {
-    this.nav.classList.remove('open');
-    this.overlay.classList.remove('show');
+  handleClick() {
+    const { isOpen } = this.state;
+    this.setState({ isOpen: !isOpen });
   }
 
   render() {
+    const { isOpen } = this.state;
+    const navClassList = isOpen ? 'header-nav open' : 'header-nav';
+    const overlayClassList = isOpen ? 'overlay show' : 'overlay';
     return (
       <header className="header" id="home">
         <a href="/" className="logo">Dia</a>
-        <nav className="header-nav" ref={c => (this.nav = c)}>
-          <span className="nav__close drawer-toggle" onClick={this.close} />
+        <nav className={navClassList}>
+          <span
+            className="nav__close drawer-toggle"
+            onClick={this.handleClick}
+            onKeyPress={this.handleClick}
+            role="button"
+            tabIndex="0"
+          />
           <ul className="nav">
             <li className="nav__item">
               <a className="nav__link" href="#home">Home</a>
@@ -44,12 +50,18 @@ export default class Header extends React.Component {
             </li>
           </ul>
         </nav>
-        <div className="bars drawer-toggle" onClick={this.open}>
+        <div
+          className="bars drawer-toggle"
+          onClick={this.handleClick}
+          onKeyPress={this.handleClick}
+          role="button"
+          tabIndex="0"
+        >
           <div />
           <div />
           <div />
         </div>
-        <div className="overlay" ref={c => (this.overlay = c)} />
+        <div className={overlayClassList} />
       </header>
     );
   }
