@@ -1,0 +1,70 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slider-img {
+  width: 100%;
+}
+
+.control {
+  background-color: $warning;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 64px;
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+
+  &-prev {
+    left: 0px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+
+    &:after {
+      content: url("./assets/images/arrow-left.svg");
+    }
+  }
+
+  &-next {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    &:after {
+      content: url("./assets/images/arrow-right.svg");
+      transform: rotateZ(180deg);
+    }
+  }
+
+  @include hover(background-color, darken($warning, 5%));
+}
+
+.slider-wrap {
+  position: relative;
+  padding: 35px 70px;
+}
+
+.slider__item {
+  position: relative;
+}
+
+.slider-info {
+  position: absolute;
+  bottom: 90px;
+  left: 90px;
+}
+
+.slider-info__title {
+  color: $primary;
+  font-size: $fz-xs;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.slider-info__text {
+  color: #fff;
+  font-weight: 500;
+  font-size: $fz-md;
+  max-width: 265px;
+}
