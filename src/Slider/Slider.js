@@ -20,11 +20,11 @@ export default class PreviousNextMethods extends Component {
     const settings = {
       arrows: false,
     };
-    return (
 
+    return (
       <div className="slider-wrap">
         <div className="slider">
-          <Slider ref={c => (this.slider = c)} {...settings}>
+          <Slider ref={slider => (this.slider = slider)} {...settings}>
 
             <div className="slider__item" key={1}>
               <img className="slider-img" src="./images/photo.png" alt="slide" />
@@ -48,7 +48,6 @@ export default class PreviousNextMethods extends Component {
 
           <button className="control control-prev" onClick={this.previous} />
           <button className="control control-next" onClick={this.next} />
-
         </div>
       </div>
 

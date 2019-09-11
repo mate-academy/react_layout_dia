@@ -7,7 +7,8 @@ function Hero() {
       <div className="hero">
         <h1 className="hero__title">Global digital agency</h1>
         <div className="hero__description">
-By the same illusion which lifts the horizon of the sea to the level of the
+          By the same illusion which lifts the horizon
+          of the sea to the level of the
           spectator on a hillside, the sable cloud beneath.
         </div>
         <button type="button" className="btn btn__default">Learn more</button>
@@ -21,8 +22,10 @@ By the same illusion which lifts the horizon of the sea to the level of the
       <div className="intro section-header">
         <div className="section-header__name">Welcome</div>
         <div className="intro__welcome">
-          By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable
-          cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper
+          By the same illusion which lifts the horizon of the sea
+          to the level of the spectator on a hillside, the sable
+          cloud beneath was dished out, and the car seemed to
+          float in the middle of an immense dark sphere, whose upper
           half was strewn with silver.
         </div>
       </div>

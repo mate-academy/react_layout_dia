@@ -5,7 +5,8 @@ function Apply() {
     <section className="apply">
       <div className="apply__title" id="apply">Vision, Passion, Results</div>
       <div className="apply__description">
-By the same illusion which lifts the horizon of the sea to the level of the
+          By the same illusion which lifts the horizon of
+          the sea to the level of the
           spectator on a hillside, the sable cloud beneath.
       </div>
       <button className="btn btn__primary" type="button">Apply</button>

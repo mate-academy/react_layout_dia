@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 
 export default class Header extends Component {
-  constructor() {
-    super();
-    this.state = {
-      isOpen: false,
-    };
-    this.handleClick = this.handleClick.bind(this);
+  constructor(props) {
+    super(props);
+    this.state = { isOpen: false };
   }
 
-  handleClick() {
+  handleClick = () => {
     const { isOpen } = this.state;
     this.setState({ isOpen: !isOpen });
   }
@@ -18,6 +15,7 @@ export default class Header extends Component {
     const { isOpen } = this.state;
     const navClassList = isOpen ? 'header-nav open' : 'header-nav';
     const overlayClassList = isOpen ? 'overlay show' : 'overlay';
+
     return (
       <header className="header" id="home">
         <a href="/" className="logo">Dia</a>

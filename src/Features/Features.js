@@ -18,8 +18,10 @@ function Features() {
                 <img src="./images/speaker.png" alt="" />
               </div>
               <div className="features__description">
-By the same illusion which lifts the horizon of the sea to the
-level of the spectator on a hillside, the sable cloud beneath was dished out.
+                By the same illusion which lifts the
+                horizon of the sea to the
+                level of the spectator on a hillside,
+                the sable cloud beneath was dished out.
               </div>
             </div>
             <div className="features__item">
@@ -27,8 +29,10 @@ level of the spectator on a hillside, the sable cloud beneath was dished out.
                 <img src="./images/calendar.png" alt="" />
               </div>
               <div className="features__description">
-By the same illusion which lifts the horizon of the sea to the
-level of the spectator on a hillside, the sable cloud beneath was dished out.
+                By the same illusion which lifts the
+                horizon of the sea to the
+                level of the spectator on a hillside,
+                the sable cloud beneath was dished out.
               </div>
             </div>
             <div className="features__item">
@@ -36,8 +40,10 @@ level of the spectator on a hillside, the sable cloud beneath was dished out.
                 <img src="./images/announcement.png" alt="" />
               </div>
               <div className="features__description">
-By the same illusion which lifts the horizon of the sea to the
-level of the spectator on a hillside, the sable cloud beneath was dished out.
+                By the same illusion which lifts the
+                horizon of the sea to the
+                level of the spectator on a hillside,
+                the sable cloud beneath was dished out.
               </div>
             </div>
           </div>
